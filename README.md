@@ -9,13 +9,14 @@
   <img alt="" src="https://img.shields.io/github/license/kasparnau/joycreative.io?style=for-the-badge&labelColor=000">
 </p>
 
-Monorepo for Joy Creative's branding website.
+A 2024 monorepo of a production-grade marketing platform built for Joy Creative on the new Next.js 15 Release Candidate.<br/><br/>
+Features modern architecture including Tailwind with Radix primitives, commit linting, Zod typed forms and validation, email batching with cron and Resend, database with Postgres/Drizzle/Neon, SEO optimization, and a reproducible local development environment. 
 
 ## ⚙️ Features
 
 - Next.js 15 RC with Turbopack
 - Development Environment - Docker
-- Database - PostgreSQL & Drizzle ORM
+- Database - PostgreSQL & Drizzle ORM hosted on Neon
 - Contact Form - React Hook Form & Zod
 - Aggregate Emails - Cron & React Email
 - UI Components - Radix Primitives
@@ -26,8 +27,9 @@ Monorepo for Joy Creative's branding website.
 
 ## ⚙️ Development
 
+See the contribution and development guide below.
 [Development & Contribution Guidelines](./CONTRIBUTING.md)
 
 ## License
 
-This project is open source and licensed under the [GNU GENERAL PUBLIC LICENSE 3.0](./LICENSE).
+Licensed under the GNU General Public License v3.0. See [GNU GENERAL PUBLIC LICENSE 3.0](./LICENSE) for details.
